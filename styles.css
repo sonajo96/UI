@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color:black;
 }
 
 .card {
@@ -10,5 +10,5 @@ body {
     white-space: pre-wrap; 
 }
 .card-body{
-    background-color: black;
+    background-color:white;
 }

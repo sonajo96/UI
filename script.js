@@ -21,7 +21,10 @@ document.getElementById('transcribeForm').addEventListener('submit', async funct
                 document.getElementById('transcriptionResult').innerText = "Transcription completed successfully";
 
                 // Show the "Ask a Question" section
-                document.getElementById('askQuestionCard').style.removeProperty('display');
+                console.log("Transcription completed, displaying Ask a Question section");
+                document.getElementById('askQuestionCard').style.display = 'block';
+
+
             } else {
                 document.getElementById('transcriptionResult').innerText = 'Error: ' + data.error;
             }
